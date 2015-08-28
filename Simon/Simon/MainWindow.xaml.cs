@@ -39,7 +39,7 @@ namespace Simon
 
         async void Button_ZacitHruClick(object sender, RoutedEventArgs e)
         {
-            for (int x =0; x < 4; x++)
+            for (int x =0; x < sliderValue; x++)
             {
                 var nahodneCislo = generatornahodnychCisel.Next(0, 4);
                 switch (nahodneCislo)
@@ -83,7 +83,7 @@ namespace Simon
 
         private void ModreTlacitko_Click(object sender, RoutedEventArgs e)
         {
-            posloupnostNaklikana.Add(ZeleneTlacitko);
+            posloupnostNaklikana.Add(ModreTlacitko);
         }
 
         private void ZluteTlacitko_Click(object sender, RoutedEventArgs e)
@@ -120,6 +120,13 @@ namespace Simon
                 }
             }
             return true;
+        }
+
+        private int sliderValue;
+        private void pocitadloDelkyVzoru_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            sliderValue = (int)pocitadloDelkyVzoru.Value;
+            DelkaVzoruText.Content = sliderValue;
         }
     }
 }

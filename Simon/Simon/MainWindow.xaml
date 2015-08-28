@@ -33,7 +33,7 @@
             <StackPanel Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Center">
                 <TextBlock Text="Délka vzoru:" VerticalAlignment="Center" />
                 <Label Name="DelkaVzoruText" Content="2" Width="20" />
-                <Slider Name="pocitadloDelkyVzoru" Value="3" Minimum="2" Maximum="20" Width="100" HorizontalAlignment="Stretch"  />
+                <Slider Name="pocitadloDelkyVzoru" Value="3" Minimum="2" Maximum="20" Width="300" HorizontalAlignment="Stretch" ValueChanged="pocitadloDelkyVzoru_ValueChanged"  />
             </StackPanel>
             <Button Grid.Column="0" Grid.Row="1" Content="Začít hru" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_ZacitHruClick"  />
             <Button Grid.Column="1" Grid.Row="1" Content="Vyhodnotit" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Click"  />
