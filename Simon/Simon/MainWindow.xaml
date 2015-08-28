@@ -16,10 +16,10 @@
                 <ColumnDefinition />
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
-            <Button Grid.Column="0" Grid.Row="0" Background="Red"  Margin="5" />
-            <Button Grid.Column="0" Grid.Row="1" Background="Blue" Margin="5" />
-            <Button Grid.Column="1" Grid.Row="0" Background="Lime" Margin="5" />
-            <Button Grid.Column="1" Grid.Row="1" Background="Yellow" Margin="5" />
+            <Button Grid.Column="0" Grid.Row="0" Name="CerveneTlacitko" Background="Red"  Margin="5" Click="CerveneTlacitko_Click" />
+            <Button Grid.Column="0" Grid.Row="1" Name="ModreTlacitko" Background="Blue" Margin="5" Click="ModreTlacitko_Click" />
+            <Button Grid.Column="1" Grid.Row="0" Name="ZeleneTlacitko" Background="Lime" Margin="5" Click="ZeleneTlacitko_Click" />
+            <Button Grid.Column="1" Grid.Row="1" Name="ZluteTlacitko" Background="Yellow" Margin="5" Click="ZluteTlacitko_Click" />
         </Grid>
         <Grid>
             <Grid.RowDefinitions>
@@ -35,8 +35,8 @@
                 <Label Name="DelkaVzoruText" Content="2" Width="20" />
                 <Slider Name="pocitadloDelkyVzoru" Value="3" Minimum="2" Maximum="20" Width="100" HorizontalAlignment="Stretch"  />
             </StackPanel>
-            <Button Grid.Column="0" Grid.Row="1" Content="Začít hru" HorizontalAlignment="Center" VerticalAlignment="Center"  />
-            <Button Grid.Column="1" Grid.Row="1" Content="Vyhodnotit" HorizontalAlignment="Center" VerticalAlignment="Center"  />
+            <Button Grid.Column="0" Grid.Row="1" Content="Začít hru" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_ZacitHruClick"  />
+            <Button Grid.Column="1" Grid.Row="1" Content="Vyhodnotit" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Click"  />
         </Grid>
     </StackPanel>
 </Window>
