@@ -5,19 +5,38 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Simon"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="2*"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="100"></ColumnDefinition>
-            <ColumnDefinition Width="3*"></ColumnDefinition>
-        </Grid.ColumnDefinitions>
-        <Button Content="Text"></Button>
-        <Button Grid.Row="0" Grid.Column="1" Content="Text" Background="Bisque"></Button>
-        <Button Grid.Row="1" Grid.Column="0" Content="Text"></Button>
-        <Button Grid.Row="1" Grid.Column="1" Content="Text"></Button>
-    </Grid>
+        Title="MainWindow" Height="500" Width="400">
+    <StackPanel>
+        <Grid Margin="5" Height="400" Width="400">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Grid.Row="0" Background="Red"  Margin="5" />
+            <Button Grid.Column="0" Grid.Row="1" Background="Blue" Margin="5" />
+            <Button Grid.Column="1" Grid.Row="0" Background="Lime" Margin="5" />
+            <Button Grid.Column="1" Grid.Row="1" Background="Yellow" Margin="5" />
+        </Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Center">
+                <TextBlock Text="Délka vzoru:" VerticalAlignment="Center" />
+                <Label Name="DelkaVzoruText" Content="2" Width="20" />
+                <Slider Name="pocitadloDelkyVzoru" Value="3" Minimum="2" Maximum="20" Width="100" HorizontalAlignment="Stretch"  />
+            </StackPanel>
+            <Button Grid.Column="0" Grid.Row="1" Content="Začít hru" HorizontalAlignment="Center" VerticalAlignment="Center"  />
+            <Button Grid.Column="1" Grid.Row="1" Content="Vyhodnotit" HorizontalAlignment="Center" VerticalAlignment="Center"  />
+        </Grid>
+    </StackPanel>
 </Window>
