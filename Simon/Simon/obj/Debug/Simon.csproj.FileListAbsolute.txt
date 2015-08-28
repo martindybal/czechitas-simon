@@ -1,0 +1,17 @@
+D:\Data\Documents\Visual Studio 2015\Projects\Simon\Simon\Simon\bin\Debug\Simon.exe.config
+D:\Data\Documents\Visual Studio 2015\Projects\Simon\Simon\Simon\bin\Debug\Simon.exe
+D:\Data\Documents\Visual Studio 2015\Projects\Simon\Simon\Simon\bin\Debug\Simon.pdb
+D:\Data\Documents\Visual Studio 2015\Projects\Simon\Simon\Simon\obj\Debug\Simon.csprojResolveAssemblyReference.cache
+D:\Data\Documents\Visual Studio 2015\Projects\Simon\Simon\Simon\obj\Debug\MainWindow.g.cs
+D:\Data\Documents\Visual Studio 2015\Projects\Simon\Simon\Simon\obj\Debug\App.g.cs
+D:\Data\Documents\Visual Studio 2015\Projects\Simon\Simon\Simon\obj\Debug\Simon_MarkupCompile.cache
+D:\Data\Documents\Visual Studio 2015\Projects\Simon\Simon\Simon\obj\Debug\Simon_MarkupCompile.lref
+D:\Data\Documents\Visual Studio 2015\Projects\Simon\Simon\Simon\obj\Debug\MainWindow.baml
+D:\Data\Documents\Visual Studio 2015\Projects\Simon\Simon\Simon\obj\Debug\Simon.g.resources
+D:\Data\Documents\Visual Studio 2015\Projects\Simon\Simon\Simon\obj\Debug\Simon.Properties.Resources.resources
+D:\Data\Documents\Visual Studio 2015\Projects\Simon\Simon\Simon\obj\Debug\Simon.csproj.GenerateResource.Cache
+D:\Data\Documents\Visual Studio 2015\Projects\Simon\Simon\Simon\obj\Debug\Simon.exe
+D:\Data\Documents\Visual Studio 2015\Projects\Simon\Simon\Simon\obj\Debug\Simon.pdb
+E:\Moje_Programy\Výuka\czechitas-simon\Simon\Simon\bin\Debug\Simon.exe.config
+E:\Moje_Programy\Výuka\czechitas-simon\Simon\Simon\obj\Debug\Simon.exe
+E:\Moje_Programy\Výuka\czechitas-simon\Simon\Simon\obj\Debug\Simon.pdb
